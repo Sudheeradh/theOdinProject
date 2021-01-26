@@ -1,0 +1,56 @@
+body{
+    background-color: #fdee23;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.player, .computer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.computer_option, .player_option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.option{
+    width: 15vw;
+    height: 15vw;
+    border: 3px solid cyan;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.optionPlayer:hover{
+    border: 3px solid rgb(255, 83, 241);
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#score{
+    font-size: xx-large;
+}
+
+#temp{
+    font-size: large;
+}

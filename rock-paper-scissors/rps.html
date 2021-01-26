@@ -2,9 +2,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./rps.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-<script src='rps.js'></script>
+    <h1>Rock Paper Scissors</h1>
+    <p>First to score 5 points wins!</p>
+    <div class="full">
+        <div class="player">
+            <div>
+                <h1>Your <br> choice</h1>
+            </div>
+            <div id="playerOut" class="player_result">
+                <img id="plyerOutImg" src="./images/nil.png">
+            </div>
+        </div>
+        <div class="computer">
+            <div>
+                <h1>Computer's <br> choice</h1>
+            </div>
+            <div id="computerOut" class="computer_result">
+                <img src="./images/nil.png">
+            </div>
+            <!-- <div class="computer_option">
+                <img class="option" src="./images/r.png">
+                <img class="option" src="./images/p.png">
+                <img class="option" src="./images/s.png">
+            </div> -->
+        </div>
+    </div>
+    <p>Choose your move:</p>
+    <div class="player_option">
+        <img id="rock" class="option optionPlayer" src="./images/r.png">
+        <img id="paper" class="option optionPlayer" src="./images/p.png">
+        <img id="scissors" class="option optionPlayer" src="./images/s.png"">
+    </div>
+    <p id="log">-_-</p>
+    <p id="temp">Score: 0 - 0</p>
+    <p id="score"></p>
+    <p id="score1"></p>
+    <script src='rps.js'></script>
 </body>
 </html>
