@@ -94,7 +94,10 @@ function game(choice){
         playerScore = 0;
         computerScore = 0;
     }
-    else{score.innerText = ""}
+    else{
+        score.innerText = "";
+        score1.innerText = "";
+    }
 
     
 }
